@@ -1,0 +1,27 @@
+{
+ 	"generator-spring-rest-withbackend": {
+ 		"endpointBaseurl": "http://localhost:9900",
+ 		"serviceName": "create-shipment",
+ 		"groupId": "com.hcl.dna.adc",
+ 		"artifactId": "create-shipment",
+ 		"springBootVersion": "1.5.3.RELEASE",
+ 		"basePackageStructure": "com.hcl.dna.adc",
+ 		"packaging": "war",
+ 		"mavenProfiles": [
+ 			"dev",
+ 			"test",
+ 			"qa",
+ 			"prod"
+ 		],
+ 		"enableEureka": false,
+ 		"enableDropwizardMetrics": true,
+ 		"enableSpringSecurity": false,
+ 		"enableSpringCloudConfig": false,
+ 		"enableELK": true,
+ 		"deploymentOptions": [
+ 			"spring-boot",
+ 			"docker"
+ 		],
+ 		"applicationPort": "8080"
+ 	}
+ }
